@@ -75,14 +75,16 @@
 
 /* Color Pallete 3 */
 #p3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 #p3-c1 {
     background-color: #ff99a0;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
@@ -90,7 +92,8 @@
 #p3-c2 {
     background-color: #ffffff;
     color: #ff99a0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
@@ -98,7 +101,8 @@
 #p3-c3 {
     background-color: #88fcf4;
     color: #ff99a0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
@@ -106,7 +110,8 @@
 #p3-c4 {
     background-color: #d8adff;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
