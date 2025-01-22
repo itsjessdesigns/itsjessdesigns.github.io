@@ -41,7 +41,7 @@
 
 /* Color Palette 2 */
 #p2 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 #p2-c1 {
@@ -76,14 +76,14 @@
 /* Color Pallete 3 */
 #p3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 #p3-c1 {
     background-color: #ff99a0;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
 }
@@ -91,7 +91,7 @@
     background-color: #ffffff;
     color: #ff99a0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
 }
@@ -99,7 +99,7 @@
     background-color: #88fcf4;
     color: #ff99a0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
 }
@@ -107,7 +107,7 @@
     background-color: #d8adff;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
 }
