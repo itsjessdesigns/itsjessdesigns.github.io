@@ -1,71 +1,113 @@
+/* Color Palette 1 */
 #p1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 #p1-c1 {
     background-color: #A8A6DE;
-    color: beige;
+    color: #32533d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 #p1-c2 {
     background-color: #EAF4D3;
-    color: black;
+    color: #32533d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 #p1-c3 {
     background-color: #32533D;
-    color: beige;
+    color: #eaf4d3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 #p1-c4 {
     background-color: #FFA799;
-    color: black;
+    color: #32533d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 #p1-c5 {
     background-color: #FE8585;
-    color: beige;
+    color: #32533d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
+
+/* Color Palette 2 */
 #p2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 #p2-c1 {
     background-color: #11112c;
-    color: beige;
+    color: #c1bdb3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 #p2-c2 {
     background-color: #c1bdb3;
-    color: black;
+    color: #11112c;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 #p2-c3 {
     background-color: #6f1a07;
-    color: beige;
+    color: #c1bdb3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 24px;
 }
 #p2-c4 {
     background-color: #152918;
-    color: beige;
+    color: #c1bdb3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+/* Color Pallete 3 */
+#p3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#p3-c1 {
+    background-color: #ff99a0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c2 {
+    background-color: #ffffff;
+    color: #ff99a0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c3 {
+    background-color: #88fcf4;
+    color: #ff99a0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c4 {
+    background-color: #d8adff;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 24px;
 }
