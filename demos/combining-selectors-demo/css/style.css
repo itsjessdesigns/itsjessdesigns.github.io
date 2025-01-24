@@ -1,0 +1,8 @@
+div#navbar {
+    background-color: palevioletred;
+    text-align: center;
+    padding: 24px;
+}
+div#navbar a {
+    color: white;
+}
