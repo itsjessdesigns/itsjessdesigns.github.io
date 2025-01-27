@@ -3,6 +3,55 @@ div#navbar {
     text-align: center;
     padding: 24px;
 }
+
 div#navbar a {
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+    transition: font-size 0.5s, color 0.5s;
+}
+
+div#navbar > a {
     color: white;
 }
+
+div#navbar a:hover {
+    font-size: 20px;
+    color: purple;
+}
+ 
+ p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    a {
+        color: lightseagreen;
+        font-weight: bold;
+    }
+ }
+
+ p.warning a {
+    color: palevioletred;
+ }
+
+ p.warning {
+    color: purple;
+ }
+
+ ul {
+    color: purple;
+    font-size: 18px;
+ }
+
+ ul a {
+    color: lightseagreen;
+    font-weight: bold;
+ }
+
+ ul div a {
+    color: aqua;
+ }
+
+ ul p a {
+    color: blue;
+ }
