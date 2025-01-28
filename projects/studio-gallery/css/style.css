@@ -44,16 +44,16 @@ img {
 }
 
 #frame-2 {
-    border: 10px outset rgb(161, 132, 95);
+    border: 10px inset rgb(70, 53, 31);
     margin: 40px 12px 0px;
     box-shadow: -2px 2px 2px #444;
     
 }
 #frame-2 div {
     background-image: 
-        linear-gradient(rgb(161, 132, 95),
-        antiquewhite, rgb(161, 132, 95) );
-    box-shadow: outset -1px 1px 1px #444;
+        linear-gradient(rgb(185, 162, 132),
+        antiquewhite, rgb(185, 162, 132) );
+    box-shadow: inset -1px 1px 1px #444;
     padding: 10px;
     height: 100px;
 }
