@@ -50,10 +50,10 @@ img {
 }
 #frame-2 div {
     background-image:
-    linear-gradient(rgb(185, 162, 132),
-    antiquewhite, rgb(185, 162, 132));
-    box-shadow: inset -1px 1px 1px #444;
-    padding: 10px;
+        linear-gradient(rgb(185, 162, 132),
+        antiquewhite, rgb(185, 162, 132));
+        box-shadow: inset -1px 1px 1px #444;
+        padding: 10px;
 }
 p {
     font-family: "Freckle Face", serif;
