@@ -6,13 +6,15 @@
 
     Good luck, and have fun!
 */
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
 img {
     width: 100%;
     object-fit: cover;
 }
 #frame-1 {
-    border: 10px inset rgb(104, 101, 97);
-    margin: 70px 12px 0px;
+    border: 8px inset rgb(104, 101, 97);
+    margin: 100px 12px 0px;
     box-shadow: -2px 2px 2px #444;
 }
 #frame-1 div {
@@ -21,6 +23,44 @@ img {
     box-shadow: inset -1px 1px 1px #444;
 }
 #frame-1 img {
-    width: 80px;
+    width: 100px;
     display: block;
+}
+
+#frame-3 {
+    border: 8px inset rgb(212, 170, 33);
+    margin: 100px 12px 0px;
+    box-shadow: -2px 2px 2px #444;
+}
+
+#frame-3 div {
+    background-color: antiquewhite;
+    padding: 8px;
+    box-shadow: inset -1px 1px 1px #444;
+}
+#frame-3 img {
+    width: 100px;
+    display: block;
+}
+
+#frame-2 {
+    border: 10px outset rgb(161, 132, 95);
+    margin: 40px 12px 0px;
+    box-shadow: -2px 2px 2px #444;
+    
+}
+#frame-2 div {
+    background-image: 
+        linear-gradient(rgb(161, 132, 95),
+        antiquewhite, rgb(161, 132, 95) );
+    box-shadow: outset -1px 1px 1px #444;
+    padding: 10px;
+    height: 100px;
+}
+
+p {
+    font-family: "Freckle Face", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
 }
