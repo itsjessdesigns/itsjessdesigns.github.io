@@ -39,7 +39,7 @@
 }
 #data-left, #data-right {
     display: inline-block;
-    padding: 0px 10px 15px;
+    padding: 0px 10px 5px;
 }
 #data-left div, #data-right div {
     color: navy;
@@ -67,6 +67,7 @@
     color: red;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    font-size: 18px;
 }
 #id-and-expiration div span {
     color: red;
@@ -88,6 +89,7 @@ h1 {
     padding: 0px 0px 10px 5px;
     font-family: sans-serif;
     font-weight: bolder;
+    font-size: 20px;
 }
 h4 {
     background-color: navy;
@@ -95,6 +97,9 @@ h4 {
     padding: 10px;
     margin: auto;
     text-align: center;
-    font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-family: sans-serif
+}
+.fa-star {
+    color: white;
 }
