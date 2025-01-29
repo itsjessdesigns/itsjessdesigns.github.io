@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    background-color: lightblue;
+    width: 50%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
