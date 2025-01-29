@@ -7,8 +7,16 @@ body {
 }
 
 .single-column {
-    background-color: lightblue;
     width: 50%;
     max-width: 1440px;
     margin: 0px auto;
+}
+.light-container {
+    background-color: lightblue;
+    padding: 48px 0px;
+}
+.dark-container {
+    background-color: darkblue;
+    color: white;
+    padding: 48px 0px;
 }
