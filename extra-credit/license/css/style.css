@@ -14,7 +14,7 @@
     border-radius: 20px;
     padding: 24px;
     background-image: 
-    linear-gradient(to bottom right, rgb(248, 196, 128), rgb(255, 131, 59));
+        linear-gradient(to bottom right, rgb(248, 196, 128), rgb(255, 131, 59));
 }
 #left-side {
     display: inline-block;
@@ -58,7 +58,7 @@
     font-style: normal;
     font-size: 30px;
 }
-#right-side img {
+img {
     width: 100%;
 }
 #donor, #real-id {
@@ -94,12 +94,16 @@ h1 {
 h4 {
     background-color: navy;
     color: white;
-    padding: 10px;
+    padding: 5px;
     margin: auto;
     text-align: center;
     font-size: 26px;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
-.fa-star {
+#real-id {
+    background-color: gold;
     color: white;
+    padding: 4px;
+    border-radius: 50%;
+    text-align: center;
 }
