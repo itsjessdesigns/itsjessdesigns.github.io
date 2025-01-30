@@ -1,5 +1,6 @@
 #img-1, #img-2, #img-3 {
     width: 350px;
+    padding: 50px 0px 0px 0px;
 }
 .column-1 {
     width: 90%;
@@ -17,12 +18,10 @@ h1 {
     color: rgb(250, 88, 115);
 }
 p {
-    font-family: sans-serif;
-    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0px 40px;
 }
-.section-1, .section-2 {
-    margin-bottom: 100px;
-}
-.container-1 {
+.section-1, .section-2, .section-3 {
+    margin-bottom: 80px;
     background-color: white;
 }
