@@ -7,7 +7,6 @@ body {
 }
 #two-column {
     display: flex;
-    margin: 80px;
 }
 #sidebar {
     width: 250px;
