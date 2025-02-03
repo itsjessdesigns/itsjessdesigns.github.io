@@ -11,6 +11,7 @@ body {
 }
 img {
     width: 100%;
+    margin-top: 20px;
 }
 #two-columns {
     display: grid;
@@ -62,6 +63,7 @@ h1 {
 }
 .subtitle {
     color: rgb(197, 1, 1);
+    margin: 40px 0px 20px;
 }
 #main a {
     color: rgb(0, 162, 255);
