@@ -4,7 +4,10 @@
 body {
     margin: 20px 0px;
     font-family: sans-serif;
-    background-color: rgb(180, 234, 255);
+    background-image: 
+        linear-gradient(
+            to right, rgb(180, 234, 255), whitesmoke, rgb(180, 234, 255)
+        );
 }
 img {
     width: 100%;
@@ -49,13 +52,17 @@ img {
     grid-area: content;
     background-color: whitesmoke;
     margin: 0px 30px;
-    padding: 20px;
+    padding: 40px;
     border: 4px solid rgb(77, 190, 255);
     border-radius: 20px;
 }
 h1 {
-    color: rgb(212, 0, 0);
+    color: rgb(197, 1, 1);
+    font-family: serif;
 }
-
-
-
+.subtitle {
+    color: rgb(197, 1, 1);
+}
+#main a {
+    color: rgb(0, 162, 255);
+}
