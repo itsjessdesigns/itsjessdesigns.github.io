@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#big-product {
+    width: 100%;
+}
+.small-product {
+    width: 200px;
+}
+#container {
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    grid-template-areas: "column-1 column-2 column-3";
+}
+#info {
+    grid-area: column-3;
+}
+#main-product {
+    grid-area: column-2;
+}
+#product-photos {
+    grid-area: column-1;
+}
