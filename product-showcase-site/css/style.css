@@ -20,6 +20,7 @@ h1 {
     color: rgb(250, 88, 115);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
+    padding: 20px 0px 40px;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
