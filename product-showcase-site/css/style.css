@@ -12,16 +12,31 @@
     background-color: rgb(255, 235, 239);
     padding: 100px;
 }
-h1 {
+h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
     color: rgb(250, 88, 115);
+}
+h1 {
+    color: rgb(250, 88, 115);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 0px 40px;
 }
-.section-1, .section-2, .section-3 {
+.section-1, .section-3 {
     margin-bottom: 80px;
-    background-color: white;
+    background-color: rgb(255, 246, 247);
+}
+.section-2 {
+    border-top: solid 4px white;
+    border-bottom: solid 4px white;
+    margin-bottom: 80px;
+}
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: inline-block;
+    padding: 20px 0px 40px;
 }
