@@ -7,14 +7,21 @@ body {
 }
 #big-product {
     width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
 }
 .small-product {
-    width: 200px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid 1px rgb(211, 210, 210);
 }
 #container {
     display: grid;
-    grid-template-columns: 10% 60% 30%;
+    grid-template-columns: 8% 50% 42%;
     grid-template-areas: "column-1 column-2 column-3";
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 40px;
 }
 #info {
     grid-area: column-3;
@@ -24,4 +31,37 @@ body {
 }
 #product-photos {
     grid-area: column-1;
+}
+#buy {
+    text-decoration: none;
+    background-color: rgb(46, 171, 248);
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    margin: 8px auto;
+}
+.button {
+    text-decoration: none;
+    border: solid 2px rgb(46, 171, 248);
+    color: rgb(46, 171, 248);
+    padding: 8px 18px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    margin: 8px auto;
+}
+.seller {
+    color: black;
+}
+ul {
+    color: rgb(147, 212, 253);
+}
+ul li {
+    display: inline;
+    margin: 2px;
+}
+#mebay {
+    margin: 60px 0px 0px 200px;
 }
