@@ -15,24 +15,71 @@
     width: 350px;
     border: solid 15px gold;
     border-radius: 10px;
-    padding: 20px;
+    padding: 0px 16px;
     margin: 18px auto;
+    display: flex;
+    flex-direction: column;
 }
-#pokemon-card-1, #pokemon-card-2 {
+#pokemon-card-1, 
+#pokemon-card-2 {
     background-image: linear-gradient(
         to bottom right, lightgreen, green, lightgreen 
-        );
+    );
 }
 #pokemon-card-3 {
     background-image: linear-gradient(
         to bottom right, orange, rgb(255, 60, 0), orange 
-        );
+    );
 }
 #pokemon-card-4 {
     background-image: linear-gradient(
         to bottom right, cyan, turquoise, cyan
-        );
+    );
+}
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 h2 {
     font-size: 30px;
+    margin: 12px 0px 0px;
+}
+.health {
+    font-size: 20px;
+    margin-top: 16px;
+}
+.details {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    background-image: linear-gradient(
+        to left, darkgoldenrod, gold, darkgoldenrod
+    );
+        text-align: center;
+        margin: 4px 0px;
+}
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+.attack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px auto;
+    padding-bottom: 8px;
+    border-bottom: solid 2px black;
+    flex: 1;
+}
+.data {
+    font-size: 12px;
+    font-weight: bold;
+    border: solid 1px darkgoldenrod;
+    text-align: left;
+    padding: 2px;
+    margin-bottom: 16px;
+}
+.description {
+    font-size: 14px;
 }
