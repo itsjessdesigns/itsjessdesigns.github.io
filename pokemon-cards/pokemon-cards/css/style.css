@@ -83,3 +83,7 @@ h2 {
 .description {
     font-size: 14px;
 }
+.power {
+    font-weight: bold;
+    font-size: 24px;
+}
