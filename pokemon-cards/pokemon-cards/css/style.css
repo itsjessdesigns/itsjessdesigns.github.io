@@ -13,8 +13,8 @@
 }
 .card-style-3 {
     width: 350px;
-    border: solid 15px gold;
-    border-radius: 10px;
+    border: solid 16px gold;
+    border-radius: 12px;
     padding: 0px 16px;
     margin: 18px auto;
     display: flex;
@@ -43,7 +43,7 @@
 }
 h2 {
     font-size: 30px;
-    margin: 12px 0px 0px;
+    margin: 0px;
 }
 .health {
     font-size: 20px;
@@ -67,7 +67,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 8px auto;
+    margin: 8px 0px;
     padding-bottom: 8px;
     border-bottom: solid 2px black;
     flex: 1;
