@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/pexels-fmaderebner-238622.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#hero-1 .hero-content {
+    text-align: center;
+}
+#hero-1 h1 {
+    font-size: 46px;
+    color: rgb(0, 56, 0);
+}
+#hero-1 h4 {
+    font-size: 24px;
+    color: rgb(26, 26, 26);
+    margin-bottom: 50px;
+}
+#hero-1 a {
+    text-decoration: none;
+    background-color: rgb(0, 56, 0);
+    font-size: 16px;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+#hero-2 {
+    background-image: url(../images/pexels-yuliantopoitier-1231365.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    position: relative;
+}
+#hero-2 .hero-content {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+#hero-2 h1 {
+    font-size: 46px;
+    color: rgb(26, 26, 26);
+}
+#hero-2 h4 {
+    font-size: 24px;
+    color: rgb(26, 26, 26);
+    margin-bottom: 50px;
+}
+#hero-2 a {
+    text-decoration: none;
+    background-color: rgb(20, 177, 224);
+    font-size: 16px;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+#hero-3 {
+    background-image: url(../images/pexels-pixabay-207896.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-3 .hero-content {
+    text-align: right;
+    position: absolute;
+    top: 8%;
+    right: 10%;
+}
+#hero-3 h1 {
+    font-size: 46px;
+    color: white;
+}
+#hero-3 h4 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+}
+#hero-3 a {
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(26, 26, 26);
+    padding: 16px;
+    border-radius: 10px;
+}
