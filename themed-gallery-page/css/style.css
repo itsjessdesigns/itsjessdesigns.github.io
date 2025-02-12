@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: serif;
+    background-color: rgb(19, 19, 19);
+}
+
+#single-column {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+#hero {
+    background-image: url(../images/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero h1 {
+    color: rgb(255, 230, 0);
+    font-size: 200px;
+    display: flex;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+}
+
+#gallery {
+    columns: 3 auto
+}
+#gallery img {
+    width: 100%;
+    margin: 10px;
+    border: solid 2px rgb(32, 32, 32);
+}
