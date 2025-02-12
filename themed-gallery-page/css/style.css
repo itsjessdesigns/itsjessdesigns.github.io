@@ -31,7 +31,7 @@ body {
 }
 
 #gallery {
-    columns: 3 auto
+    columns: 3 auto;
 }
 #gallery img {
     width: 100%;
