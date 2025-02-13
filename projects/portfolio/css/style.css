@@ -25,10 +25,11 @@ body {
 #hero a {
     color: white;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.119);
+    background-color: rgba(0, 19, 24, 0.555);
     border: solid 2px rgb(255, 255, 255);
     padding: 16px;
     text-decoration: none;
+    font-size: 24px;
 }
 #hero {
     background-image: url(../images/urban-hi-res-1ui7.jpg);
@@ -38,7 +39,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-attachment: fixed;
+    position: relative;
     margin-bottom: 100px;
 }
 #hero-content {
@@ -77,11 +79,12 @@ body {
 .card-content a {
     color: white;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.199);
+    background-color: rgba(0, 19, 24, 0.555);
     border: solid 2px rgb(255, 255, 255);
     padding: 16px;
     text-decoration: none;
     display: inline-block;
+    font-size: 20px;
 }
 .card-content h2 {
     color: rgb(0, 19, 24);
@@ -89,6 +92,7 @@ body {
     margin-top: 0px;
     background-color: rgba(255, 255, 255, 0.39);
     padding: 10px;
+    font-size: 32px;
 }
 #card-1 {
     background:
