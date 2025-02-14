@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: rgb(133, 104, 72);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar a {
+    color: rgb(255, 246, 235);
+    text-decoration: none;
+    padding: 36px;
+    margin-right: 100px;
+}
+#logo {
+font-size: 32px;
+font-weight: bold;
+margin-left: 100px;
+color: rgb(248, 238, 225);
+}
+
+#logo-2 {
+    color: white;
+    margin-left: 100px;
+}
+#navbar-2 {
+    background-color: rgb(255, 174, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar-2 a {
+    color: white;
+    padding: 24px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.cta {
+    border-radius: 36px;
+    border: solid 2px;
+    margin: 20px;
+}
+
+
+
+
