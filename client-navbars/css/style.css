@@ -9,13 +9,12 @@ body {
 #navbar {
     background-color: rgb(133, 104, 72);
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 #navbar a {
     color: rgb(255, 246, 235);
     text-decoration: none;
-    padding: 36px;
     margin-right: 100px;
 }
 #logo {
@@ -30,22 +29,60 @@ color: rgb(248, 238, 225);
     margin-left: 100px;
 }
 #navbar-2 {
-    background-color: rgb(255, 174, 0);
+    background-color: rgb(228, 156, 0);
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 50px;
 }
 #navbar-2 a {
     color: white;
-    padding: 24px;
-    margin-right: 50px;
     text-decoration: none;
 }
+
 .cta {
     border-radius: 36px;
     border: solid 2px;
-    margin: 20px;
+    padding: 10px;
 }
+
+#top-nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    font-weight: bold;
+    justify-content: center;
+}
+#top-nav a {
+    color: white;
+}
+#middle-nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 16px 100px 16px 100px;
+    background-color: rgb(107, 0, 128);
+    color: white;
+}
+#middle-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 0px 0px 20px;
+}
+
+#bottom-nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+#bottom-nav a {
+    color: white;
+    text-decoration: none;
+}
+
 
 
 
