@@ -212,4 +212,22 @@ a {
 
 /* TODO: Add your media query code here */
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
+    #hero h1 {
+        font-size: 60px;
+    }
+    #hero h3 {
+        font-size: 40px;
+    }
+    #nav {
+        flex-direction: column;
+    }
+    .three-cards, 
+    .two-cards {
+        flex-direction: column;
+    }
+    .two-cards a {
+        display: flex;
+        flex-direction: column;
+    }
+}
