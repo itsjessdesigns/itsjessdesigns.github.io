@@ -496,14 +496,13 @@ body {
         flex: 100px;
     }
     #banner-container,
-#card-1,
-#card-2,
-#card-3,
-#aside,
-#main {
-    background-color: none;
-    padding: 0px;
-    margin: 0px;
-
-}
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: none;
+        padding: 0px;
+        margin: 0px;
+    }
 }
