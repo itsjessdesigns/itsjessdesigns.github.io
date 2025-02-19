@@ -49,6 +49,58 @@ img {
     font-size: 48px;
 }
 
+#featured {
+    background-color: #222;
+    padding: 24px 0px;
+    color: white;
+}
+#featured h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.grid img {
+    height: 300px;
+    border-radius: 24px;
+}
+.grid p {
+    border: solid #ffb700 2px;
+    border-radius: 24px;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    grid-template-areas: 
+        "p1 img1 img2 img2"
+        "img3 img3 img4 p2"
+    ;
+}
+#p1 {
+    grid-area: p1;
+}
+#p2 {
+    grid-area: p2;
+}
+#img1 {
+    grid-area: img1;
+}
+#img2 {
+    grid-area: img2;
+}
+#img3 {
+    grid-area: img3;
+}
+#img4 {
+    grid-area: img4;
+}
+
 @media screen and (max-width:480px) {
     #nav {
         flex-direction: column;
@@ -68,6 +120,17 @@ img {
         flex: 200px;
         width: 100%;
     }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "p1"
+            "img1"
+            "img2"
+            "p2"
+            "img3"
+            "img4"
+        ;
+    }
 }
 
 @media screen and (max-width: 740px) and (min-width: 481px) {
@@ -79,5 +142,14 @@ img {
     }
     .content h1 {
         font-size: 28px;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "p1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 p2"
+        ;
     }
 }
