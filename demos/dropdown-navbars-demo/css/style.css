@@ -49,6 +49,12 @@ body{
     transform: translateY(0px);
 }
 #navbar .dropdown-menu a:hover {
-    color: yellow;
+    color: black;
     background-color: transparent;
+}
+.dropdown-container:hover i {
+    transform: rotate(180deg);
+}
+.dropdown-container i {
+    transition: transform 0.5s;
 }
