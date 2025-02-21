@@ -11,6 +11,63 @@ body {
 #nav {
     padding: 20px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+}
+#nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#nav #logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url(../images/hero-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+}
+.hero-content {
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.hero-content h4 {
+    font-size: 24px;
+    color: rgb(0, 162, 255);
+}
+.hero-content a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px;
+    margin: 24px;
+
+    border-radius: 24px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    font-weight: bold;
+}
+.hero-content a:hover {
+    background-color: rgba(0, 162, 255, 0.5);
+    color: black;
+}
+.dropdown {
+    position: relative;
+    
+}
+.dropdown-menu {
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+#nav .dropdown-menu a {
+    color: black;
 }
