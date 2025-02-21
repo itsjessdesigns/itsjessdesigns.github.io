@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.gallery-1 {
+    opacity: 0;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s
+        ;
+        border: solid rgb(66, 66, 66) 5px;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        background-color: rgb(66, 66, 66);
+        margin: 20px;
+        flex: 1;
+}
+.gallery-1:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+img {
+    width: 100%;
+}
+h2, 
+h4 {
+    text-align: center;
+}
+
+#card-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: green solid 5px;
+    color: green;
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+        ;
+}
+#card-5:hover {
+    background-color: lightgreen;
+    box-shadow: 4px 4px 4px #0004;
+    transform: translateY(-4px);
+}
+#card-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: blue solid 5px;
+    color: blue;
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+        ;
+}
+#card-6:hover {
+    background-color: lightblue;
+    box-shadow: 4px 4px 4px #0004;
+    transform: translateY(-4px);
+}
+#card-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: purple solid 5px;
+    color: purple;
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+        ;
+}
+#card-7:hover {
+    background-color: lavender;
+    box-shadow: 4px 4px 4px #0004;
+    transform: translateY(-4px);
+}
+#card-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: lightpink solid 5px;
+    color: lightpink;
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+        ;
+}
+#card-8:hover {
+    background-color: rgb(255, 220, 225);
+    box-shadow: 4px 4px 4px #0004;
+    transform: translateY(-4px);
+}
+.gallery-2 {
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
