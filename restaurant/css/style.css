@@ -33,7 +33,7 @@ body {
     font-style: normal;
     text-decoration: none;
     color: #363825;
-    font-size: 16px;
+    font-size: 18px;
 }
 .navbar a:hover {
     color: #6C8194;
@@ -53,23 +53,24 @@ body {
     font-size: 46px;
     color: white;
     position: absolute;
-    bottom: 20%;
-    left: 5%;
+    color: #363825;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 20px;
 }
-.button {
+.homebutton {
     font-family: lato, sans-serif;
     font-size: 16px;
     position: absolute;
     bottom: 10%;
-    left: 25%;
+    left: 5%;
     background-color: #6C8194;
     color: white;
-    padding: 10px 16px;
+    padding: 10px 60px;
     border-radius: 25px;
     text-decoration: none;
     text-align: center;
 }
-.button:hover {
+.homebutton:hover {
     background-color: white;
     color: #363825;
 }
@@ -89,7 +90,7 @@ body {
     font-style: normal;
     text-decoration: none;
     color: #363825;
-    font-size: 16px;
+    font-size: 18px;
 }
 .footer a:hover {
     color: #6C8194;
@@ -103,33 +104,33 @@ body {
     display: flex;
     flex-direction: column;
 }
-.button.menu {
+.menubutton {
     font-family: lato, sans-serif;
     font-size: 16px;
     background-color: #6C8194;
     color: white;
-    padding: 10px 16px;
+    padding: 10px 60px;
     border-radius: 25px;
     text-decoration: none;
     text-align: center;
     position: static;
     border: 2px solid #6c819400;
 }
-.button.menu:hover {
+.menubutton:hover {
     background-color: white;
     color: #363825;
     border: 2px solid #6C8194;
 }
-.button-container .button-menu {
+.button-container {
     display: flex;
     justify-content: space-around;
 }
 .featured {
     border: solid 1px #88888862;
     border-radius: 20px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
-    box-shadow: 4px 5px #88888862;
+    box-shadow: 2px 2px 8px gray;
     background-color: #C33332;
     h2#featured {
         color: white;
@@ -139,10 +140,11 @@ body {
         font-size: 32px;
     }
     h4 {
-        font-size: 18px;
+        font-size: 20px;
         font-family: lato, sans-serif;
         font-weight: 800;
         color: white;
+        margin-bottom: 5px;
     }
     p {
         font-family: lato, sans-serif;
@@ -173,25 +175,23 @@ body {
 .featured img {
     width: 400px;
     border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
 }
 .grid img {
-    width: 200px;
+    width: 100%;
     border-radius: 5px;
-    object-fit: cover;
+    box-shadow: 2px 2px 8px gray;
 }
 .card {
-    border: solid 1px #88888862;
-    border-radius: 20px;
-    margin: 20px 0px;
-    padding: 20px;
     h4 {
-        font-size: 18px;
+        font-size: 20px;
         font-family: lato, sans-serif;
-        font-weight: 800; 
+        font-weight: 800;
+        margin: 5px 0px;
     }
     p {
         font-family: lato, sans-serif;
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 .grid {
@@ -201,7 +201,7 @@ body {
         "box-1 box-2 box-3"
         "box-4 box-5 box-6"
         "box-7 box-8 box-9";
-    gap: 24px;
+    gap: 32px;
     margin: 24px;
 }
 #box-1 {
@@ -230,4 +230,131 @@ body {
 }
 #box-9 {
     grid-area: box-9;
+}
+
+@media screen and (max-width: 950px) {
+    .card {
+        h4 {
+            font-size: 18px;
+            font-family: lato, sans-serif;
+            font-weight: 800;
+            margin: 5px 0px;
+        }
+        p {
+            font-family: lato, sans-serif;
+            font-size: 16px;
+        }
+    }
+    .grid {
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-areas:
+            ". box-1 ." 
+            ". box-2 ."
+            ". box-3 ."
+            ". box-4 ." 
+            ". box-5 ." 
+            ". box-6 ."
+            ". box-7 ."
+            ". box-8 ." 
+            ". box-9 .";
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #hero h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .grid {
+        grid-template-columns: 1fr 9fr 1fr;
+        grid-template-areas:
+            ". box-1 ." 
+            ". box-2 ."
+            ". box-3 ."
+            ". box-4 ." 
+            ". box-5 ." 
+            ". box-6 ."
+            ". box-7 ."
+            ". box-8 ." 
+            ". box-9 .";
+    }
+    .navbar {
+        flex-direction: column;
+        a {
+            margin: 20px 0px;
+        }
+    }
+    .navbar img {
+        width: 200px;
+    }
+    #hero h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "box-1" 
+            "box-2"
+            "box-3"
+            "box-4" 
+            "box-5" 
+            "box-6"
+            "box-7"
+            "box-8" 
+            "box-9";
+    }
+    .featured img {
+        width: 300px;
+    }
+    .button-container {
+        flex-direction: column;
+    }
+    .menubutton {
+        margin: 20px;
+    }
+    .footer {
+        flex-direction: column;
+        a {
+            margin: 20px 0px;
+        }
+    }
+    #hero h1 {
+        font-size: 30px;
+    }
+    #hero {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .featured img {
+        width: 250px;
+    }
+    #hero {
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .featured img {
+        width: 200px;
+    }
+    .featured h2#featured {
+        font-size: 24px;
+    }
+    #hero {
+        height: 30vh;
+    }
+    #hero h1 {
+        font-size: 30px;
+        bottom: 70%;
+        color: #363825;
+        background-color: rgba(255, 255, 255, 0.527);
+        padding: 0px 20px;
+    }
 }
