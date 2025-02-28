@@ -14,9 +14,11 @@ body {
     margin: 24px auto;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
 }
 .navbar img {
-    width: 100px;
+    width: 150px;
 }
 .navbar {
     background-color: white;
@@ -39,7 +41,7 @@ body {
     color: #6C8194;
 }
 #hero {
-    background-image: url(../images/giraffe.jpg);
+    background-image: url(../images/restaurant.jpg);
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -59,12 +61,13 @@ body {
 }
 .homebutton {
     font-family: lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     position: absolute;
     bottom: 10%;
     left: 5%;
-    background-color: #6C8194;
-    color: white;
+    background-color: #EFBD1E;
+    color: #363825;
+    font-weight: 600;
     padding: 10px 60px;
     border-radius: 25px;
     text-decoration: none;
@@ -80,6 +83,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border-radius: 0px 0px 5px 5px;
+    border-top: #6C8194 solid 2px;
 }
 .footer img {
     width: 100px;
@@ -106,15 +110,16 @@ body {
 }
 .menubutton {
     font-family: lato, sans-serif;
-    font-size: 16px;
-    background-color: #6C8194;
-    color: white;
+    font-size: 18px;
+    background-color: #EFBD1E;
+    color: #363825;
     padding: 10px 60px;
     border-radius: 25px;
     text-decoration: none;
     text-align: center;
     position: static;
     border: 2px solid #6c819400;
+    font-weight: 600;
 }
 .menubutton:hover {
     background-color: white;
@@ -351,7 +356,7 @@ body {
         height: 30vh;
     }
     #hero h1 {
-        font-size: 30px;
+        font-size: 28px;
         bottom: 70%;
         color: #363825;
         background-color: rgba(255, 255, 255, 0.527);
